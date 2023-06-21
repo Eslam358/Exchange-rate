@@ -1,0 +1,55 @@
+div{
+    padding: 20px;
+    width: 90%;
+    margin:20px auto;
+    text-align: center;
+    background-color: cadetblue;
+    border: 2px solid red;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+@media (max-width:450px) {
+    div{
+        padding: 20px 10px;
+    }
+}
+.price{
+max-width: 900px;
+}
+div.rate{
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: 10x;
+}
+.Amount{
+    padding: 10px;
+    border: 1px solid #EEE;
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: #EEE;
+    cursor: pointer;
+}
+label{
+    padding: 10px;
+    width: 50px;
+    display: inline-block;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bold;
+    width: 70%;
+}
+input:hover{
+    background-color: rgb(130, 231, 238);
+    border: none;
+}
+input:focus{
+    background-color: rgb(32, 32, 32);
+    border: none;
+    outline: none;
+    color: white;
+}
